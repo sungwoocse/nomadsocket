@@ -1,0 +1,9 @@
+{
+    "name": "zoom",
+    "version": "1.0.0",
+    "description": "Zoom Clone",
+    "license": "MIT",
+    "devDependencies": {
+        "nodemon": "^3.1.4"
+    }
+}
