@@ -1,21 +1,24 @@
 {
-    "name": "zoom",
-    "version": "1.0.0",
-    "description": "Zoom Clone",
-    "license": "MIT",
-    "scripts": {
-        "dev": "nodemon --exec babel-node src/server.js"
-    },
-    "devDependencies": {
-        "@babel/cli": "^7.24.8",
-        "@babel/core": "^7.24.9",
-        "@babel/node": "^7.24.8",
-        "@babel/preset-env": "^7.24.8",
-        "nodemon": "^3.1.4"
-    },
-    "dependencies": {
-        "express": "^4.19.2",
-        "pug": "^3.0.3",
-        "ws": "^8.18.0"
-    }
+  "name": "noom",
+  "version": "1.0.0",
+  "description": "Zoom Clone using NodeJS, WebRTC and Websockets.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+      "dev": "nodemon",
+      "start": "node server.js"
+  },
+  "devDependencies": {
+      "@babel/cli": "^7.14.5",
+      "@babel/core": "^7.14.6",
+      "@babel/node": "^7.14.7",
+      "@babel/preset-env": "^7.14.7",
+      "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+      "express": "^4.19.2",
+      "pug": "^3.0.2",
+      "socket.io": "^4.7.5",
+      "ws": "^7.5.3"
+  }
 }
